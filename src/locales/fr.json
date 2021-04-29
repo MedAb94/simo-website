@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "about": "A PROPOS",
+    "services": "SERVICES",
+    "projects": "PROJETS",
+    "contact": "CONTACTEZ-NOUS"
+  },
+  "hero": {
+    "title": "CONCEPTION DE SITES WEB ET APPLICATIONS MOBILES PROFESSIONNELLES.",
+    "subtitle": "Nous offrons des services adaptés à vos besoin et à des prix concurrentiels.",
+    "soumission": "SOUMISSION GRATUITE"
+  },
+  "about": {
+    "title": "Chez SITEWEBART nous sommes des passionnés du web et pouvons vous aider à réaliser le projet de votre rêve. Petit ou gros projet, que ce soit pour un site web, un appli mobile pour votre entreprise ou pour un projet personnel vous pouvez compter sur notre expertise. Nous utilisons les dernières technologies disponibles sur le marché, pour concevoir des projets qui donnent une bonne expérience à nos clients et ce à des prix compétitifs.",
+    "offres": {
+      "title": "Offres spéciales pour un temps limité:",
+      "1": "Conception de logo gratuit.",
+      "2": "Conception graphique gratuit avec révisions illimités.",
+      "3": "Nom de domaine et hébergement web gratuits pour une durée de 1 an.",
+      "4": "Maintenance gratuite pendant 3 mois."
+    }
+  },
+  "services": {
+    "1": {
+      "title": "CONCEPTION GRAPHIQUE ET PRODUCTION AUDIOVISUELLE",
+      "text": "Nous créons des logos et maquettes attrayantes selon vos requis et les faisons valider par vous dans le but d’arriver à un résultat à la hauteur de votre image."
+    },
+    "2": {
+      "title": "DEVELOPPEMENT INFORMATIQUE",
+      "text": "ecrire texte par vous"
+    },
+    "3": {
+      "title": "Marketing Digital",
+      "text": "ecrire texte par vous"
+    }
+  },
+  "projects": {
+    "title": "Voici quelques-unes de nos réalisations:",
+    "visit": "Visiter le site web",
+    "1": {
+      "title": "INSTANTACLASSE",
+      "text": "Site web d'apprentissage de cours en ligne."
+    },
+    "2": {
+      "title": "GOGIVEGO",
+      "text": "Site web permettant de vendre, donner ou échanger des objets et services."
+    },
+    "3": {
+      "title": "TOWUGO",
+      "text": "Site Web et application mobile fournissant instantanément une assistance routière en cas d'accident ou bris de véhicules."
+    }
+
+  },
+  "contact": {
+    "name": "Nom",
+    "subject": "Objet",
+    "phone": "Telephone (optionel)",
+    "send": "Envoyer"
+
+  }
+}
