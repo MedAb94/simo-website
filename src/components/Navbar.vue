@@ -44,8 +44,7 @@
         fixed
     >
 
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"/>
-      <v-img src="../assets/logo.png" max-width="80" />
+      <v-img src="../assets/logo.png" max-width="80"/>
       <v-spacer/>
       <v-layout class="justify-center align-center hidden-sm-and-down">
         <a href="#about" v-smooth-scroll>
@@ -62,17 +61,19 @@
         </a>
       </v-layout>
       <v-spacer/>
-      <v-btn text class="link-item text-subtitle-1 ml-4" @click="$i18n.locale='en'" v-if="$i18n.locale === 'fr'">EN
+      <v-btn text class="link-item text-subtitle-1 ml-4" @click="$i18n.locale='ar';$vuetify.rtl=true" v-if="$i18n.locale === 'fr'">العربية
       </v-btn>
-      <v-btn text class="link-item text-subtitle-1 ml-4" @click="$i18n.locale='fr'" v-if="$i18n.locale === 'en'">FR
+      <v-btn text class="link-item text-subtitle-1 ml-4" @click="$i18n.locale='fr';$vuetify.rtl=false" v-if="$i18n.locale === 'ar'">FR
       </v-btn>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"/>
     </v-app-bar>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Navbar"
+  name: "Navbar",
+  data: () => ({drawer: false})
 }
 </script>
 
